@@ -83,7 +83,7 @@
   background: #ffffff;
   width: 0 !important;
   transition-property: width;
-  transition-duration: 0.3s ;
+  transition-duration: 0.4s ;
 }
 .show-center-band2 {
   padding: 7px;
@@ -92,7 +92,7 @@
   background: #fff;
   width: 0px !important; 
   transition-property: width;
-  transition-duration: 0.3s;
+  transition-duration: 0.4s;
   
 }
 .bn-1 {
