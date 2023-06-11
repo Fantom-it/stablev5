@@ -3,6 +3,7 @@
 body {
   font-family: "Space Mono", monospace;
   color: white;
+  background: #000;
 }
 .mainpage {
   width: 1440px;
