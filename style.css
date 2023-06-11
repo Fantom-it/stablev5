@@ -71,10 +71,64 @@ body {
   margin: 0;
   margin-top: -5px;
 }
+.network-menu {
+  position: absolute;
+  overflow: hidden;
+  width: 477px;
+  width: 0;
+  width: 457px; 
+  height: 84px;
+  height: 0;
+  background: #fff;
+ /* opacity: 0; */
+  transition-property: all !important;
+  transition-duration: 0.5s !important;
+  margin-left: 10px;
+  margin-top: -1px;
+}
+.show-network-menu {
+  opacity: 1;
+  width: 477px;
+  height: 84px;
+  margin-left: 0;
+  margin-top: -1px;
+  transition-property: all ;
+  transition-duration: 0.5s;
+}
+
+.network-menu__list-top {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.network-menu__list-top a {
+  color: #000;
+  font-size: 12px;
+}
+.network-menu__list-top li {
+  height: 10px;
+}
+.network-menu__list-top__a-1 {
+  
+}
+
 .arrow {
   width: 30px;
   height: 30px;
   background: url(img/Arrow.svg);
+ /* transform: skewY(-20deg); */
+ transition-property: transform;
+  transition: 0.5s;
+  z-index: 2;
+}
+.show-arrow {
+  transform: rotate(-90deg);
+  transition-property: transform;
+  transition: 0.5s;
 }
 .text-convert_to {
   font-size: 12px;
@@ -100,6 +154,84 @@ body {
   font-family: "Gilroy";
   margin: 0;
   margin-top: -6px;
+}
+.token-menu {
+  position: absolute;
+  overflow: hidden;
+  width: 457px;
+  height: 366px;
+  height: 0;
+  background: #fff;
+  color: #000;
+  margin-top: -1px;
+  margin-left: 10px;
+  transition-property: all;
+   transition-duration: 0.5s;
+   
+}
+.show-token-menu {
+  position: absolute;
+   width: 477px;
+   height: 366px;
+   margin-left: 0;
+   background: #fff;
+   transition-property: all;
+   transition-duration: 0.5s;
+}
+
+.token-menu__input-div {
+  display: flex;
+  width: 95.5%;
+  height: 47px;
+/*  background: #d48484; */
+  border-bottom: 1px solid #000;
+  align-items: center;
+  margin: 0 auto;
+}
+.input-img {
+  position: ;
+  width: 25px;
+  height: 25px;
+  background: url(img/input.svg);
+  margin-left: 10px;
+}
+.token-menu__input-div__search-text {
+  color: #000;
+  margin-left: 18px;
+}
+.token-menu__text-etherium {
+  font-size: 10px;
+  margin: 0;
+  margin-top: 5px;
+  margin-left: 11px;
+}
+.token-menu__div-crypto {
+  display: flex;
+  width: 95%;
+  height: 37px;
+ /* background: #d48484; */
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  margin-top: 20px;
+}
+.token-menu__div-crypto__name-crypto {
+  font-size: 30px;
+  margin: 0;
+}
+.token-menu__div-crypto__price {
+  position: absolute;
+  font-size: 10px;
+  font-family: 'gilroy';
+  margin: 0;
+  margin-top: 13px;
+  margin-left: 336px;
+}
+.token-menu__div-crypto__course {
+  font-size: 30px;
+  font-family: 'gilroy';
+  margin: 0;
 }
 .container-0 {
   display: flex;
