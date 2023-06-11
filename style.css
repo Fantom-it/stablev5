@@ -424,6 +424,7 @@ body {
 .text-link-add_adress {
   color: #fff;
   font-size: 12px;
+  opacity: 0;
 }
 .tablet-stable {
   display: flex;
