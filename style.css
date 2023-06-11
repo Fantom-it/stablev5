@@ -194,7 +194,7 @@ body {
   width: 25px;
   height: 25px;
   background: url(img/input.svg);
-  margin-left: 10px;
+  margin-left: 0px;
 }
 .token-menu__input-div__search-text {
   color: #000;
