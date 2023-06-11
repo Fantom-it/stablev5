@@ -174,21 +174,16 @@ document.getElementById("zbn-b-4").classList.toggle("bands-4-cl-tr");
   document.getElementById("zbn-b-3").classList.toggle("bands-3-cl-tr");
    document.getElementById("zbn-b-2").classList.toggle("bands-2-cl-tr");
   document.getElementById("zbn-last").classList.toggle("bands-last-cl-tr");
-
-  
- 
-  
-  
- 
-  
-  
-  
-  
-  
- 
-  
- 
-  
-  
-  
+}
+function networkMenu() {
+  document.getElementById("network-menu").classList.toggle("show-network-menu");
+  document.getElementById("arrow").classList.toggle("show-arrow");
+}
+function networkMenu2() {
+  document.getElementById("network-menu2").classList.toggle("show-network-menu");
+  document.getElementById("arrow2").classList.toggle("show-arrow");
+}
+function tokenMenu() {
+  document.getElementById("token-menu").classList.toggle("show-token-menu");
+  document.getElementById("arrow3").classList.toggle("show-arrow");
 }
