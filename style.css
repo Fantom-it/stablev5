@@ -4,6 +4,7 @@ body {
   font-family: "Space Mono", monospace;
   color: white;
   background: #000;
+  width: 100%;
 }
 .mainpage {
   width: 1440px;
@@ -28,15 +29,24 @@ body {
   transition-delay: 0.5s;
 }
 .center-content {
+  display: none;
   position: absolute;
   width: 477px;
   height: 611px;
   background: rgb(0, 0, 0);
   margin-left: 480px;
+  margin-left: 0;
   margin-top: 116px;
   border-left: 1px solid #fff;
   border-right: 1px solid #fff;
 }
+.show-center-content {
+  margin-left: 480px;
+}
+.show-center-content-display {
+  display: block;
+}
+
 /*.text-transfer {
   width: 262px;
   height: 45px;
@@ -454,11 +464,15 @@ body {
   transition-duration: 0.5s;
 }
 .left-content {
+  display: none;
   position: absolute;
   /* background: red; */
   width: 286px;
   margin-top: 256px;
   margin-left: 154px;
+}
+.show-left-content-display {
+  display: block;
 }
 .text-your {
   position: absolute;
@@ -573,12 +587,20 @@ body {
   border-bottom: 1px solid white;
 }
 .right-content {
+  display: none;
   position: absolute;
   width: 316px;
   margin-left: 1000px;
+  margin-left: 0;
   margin-top: 196px;
   /* background: #fff;
   color: #000; */
+}
+.show-right-content-display {
+  display: block;
+}
+.show-right-content {
+  margin-left: 1000px;
 }
 .right-content__big-text {
   font-size: 50px;
