@@ -664,6 +664,7 @@ body {
   display: flex;
   margin: 0 auto;
   margin-top: 40px;
+  margin-top: -500px;
 }
 .bands,
 .bands-2,
