@@ -184,6 +184,21 @@ function stable() {
   document.getElementById("zbn-b-3").classList.toggle("bands-3-cl-tr");
   document.getElementById("zbn-b-2").classList.toggle("bands-2-cl-tr");
   document.getElementById("zbn-last").classList.toggle("bands-last-cl-tr");
+  document
+    .getElementById("center-content")
+    .classList.toggle("show-center-content");
+  document
+    .getElementById("right-content")
+    .classList.toggle("show-right-content");
+  document
+    .getElementById("center-content")
+    .classList.toggle("show-center-content-display");
+  document
+    .getElementById("left-content")
+    .classList.toggle("show-left-content-display");
+  document
+    .getElementById("right-content")
+    .classList.toggle("show-right-content-display");
 }
 
 function buttonInMain() {}
