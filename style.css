@@ -634,7 +634,7 @@ body {
 } */
 
 .main-items {
-  width: 100%;
+  width: 100%; /* (Изменено) 24.06.2023 */
   display: flex;
   list-style-type: none;
   padding: 0;
@@ -658,6 +658,8 @@ body {
 .text-connectwallet {
   padding: 0;
   margin-left: 1059px;
+  margin-left: auto;  /* (Изменено) */
+  margin-right: 30px; /* - */
 }
 .main-items__div {
   position: absolute;
