@@ -7,7 +7,8 @@ body {
   width: 100%;
 }
 .mainpage {
-  width: 1440px;
+ /* width: 1440px; */
+  width: 100%; /* (Изменeно) 24.06.2023  */
   height: 800px;
   margin: 0 auto;
   overflow: hidden;
