@@ -683,6 +683,8 @@ body {
   background: #fff;
 }
 .main-items__div__img {
+  width: 17.4px;         /* (Изменено) 24.06.203 */
+  height: 24px           /* (Изменено) 24.06.203 */
   padding-left: 6.99px;
   padding-right: 6.43px;
 }
