@@ -1942,3 +1942,11 @@ body {
   transform: matrix(-1, 0, 0, 1, 0, 0);
   transition-delay: 0.5s;
 }
+@media (width <= 1350px) {  /* 00000000000000000000000000000000000 */
+  .bands-last-cl {                /* - */
+  width: 600px;             /* - */
+}                           /* - */
+.bands-last-cl-tr {                   /* - */
+  width: 600px;             /* - */
+}                           /* - */
+}     
