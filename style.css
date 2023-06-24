@@ -51,7 +51,8 @@ body {
   border-right: 1px solid #fff;
 }
 .show-center-content {
-  margin-left: 480px;
+  margin-left: 480px; 
+  margin: 0 auto;   /* (Изменено) 24.06.203 */
 }
 .show-center-content-display {
   display: block;
