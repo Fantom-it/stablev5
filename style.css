@@ -33,6 +33,11 @@ body {
   opacity: 1;
   transition-delay: 0.5s;
 }
+@media (width <= 1440px) {  /* (Изменено) 24.06.203 */
+  .show-main-page {           /* - */        
+    width: 100%;        /* - */   
+  }                     /* - */  
+}                       /* - */ 
 .center-content {
   display: none;
   position: absolute;
