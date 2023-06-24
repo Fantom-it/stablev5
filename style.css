@@ -7,12 +7,16 @@ body {
   width: 100%;
 }
 .mainpage {
- /* width: 1440px; */
-  width: 100%; /* (Изменeно) 24.06.2023  */
+  width: 1440px;
   height: 800px;
   margin: 0 auto;
   overflow: hidden;
 }
+@media (width <= 1440px) {  /* (Изменено) 24.06.203 */
+  .mainpage {           /* - */        
+    width: 100%;        /* - */   
+  }                     /* - */  
+}                       /* - */  
 .main-page {
   width: 1440px;
   width: 0;
@@ -685,14 +689,19 @@ body {
 } */
 .main-block-bands {
   position: absolute;
-  /* width: 1440px; */
-  width: 100%; /* (Изменено) 24.06.2023 */
+  width: 1440px;  
   height: 800px;
   justify-content: space-between;
   display: flex;
   margin: 0 auto;
   margin-top: 40px;
 }
+ 
+  @media (width <= 1440px) { /* (Изменено) 24.06.203 */                        
+    main-block-bands {     /* - */
+         width: 100%;      /* - */   
+      }                    /* - */                   
+  }                        /* - */  
 .show-main-block-bands-index {
   margin-top: 40px !important;
 }
