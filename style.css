@@ -41,7 +41,7 @@ body {
 }                       /* - */ 
 .center-content {
   display: none;
-  position: absolute;
+  /*position: absolute;*/ /* 00000000000000000000000000000000000000 */
   width: 477px;
   height: 611px;
   background: rgb(0, 0, 0);
@@ -53,7 +53,8 @@ body {
 }
 .show-center-content {
   margin-left: 480px; 
-  margin: 0 auto;    (Изменено) 24.06.203 
+  margin: 0 auto;
+  margin-top: 116px /* (Изменено) 24.06.203 */
 }
 .show-center-content-display {
   display: block;
@@ -843,6 +844,14 @@ body {
   );
   transition-delay: 0.5s;
 }
+@media (width <= 1350px) {  /* 00000000000000000000000000000000000 */
+  .bands-1 {                /* - */
+  width: 600px;             /* - */
+}                           /* - */
+.bandsc {                   /* - */
+  width: 600px;             /* - */
+}                           /* - */
+}                           /* - */
 .bandsc-tr {
   width: 642px;
   height: 5px;
