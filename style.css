@@ -28,7 +28,7 @@ body {
   opacity: 0;
 }
 .show-main-page {
-  display: flex; * (Изменено) 24.06.203 */
+  display: flex; /* (Изменено) 24.06.203 */
   width: 1440px;
   height: 800px;
   opacity: 1;
