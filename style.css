@@ -698,7 +698,7 @@ body {
 }
  
   @media (width <= 1440px) { /* (Изменено) 24.06.203 */                        
-    main-block-bands {     /* - */
+    .main-block-bands {     /* - */
          width: 100%;      /* - */   
       }                    /* - */                   
   }                        /* - */  
