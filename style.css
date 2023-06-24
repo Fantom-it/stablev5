@@ -667,7 +667,6 @@ body {
   margin-right: 30px; /* - */
 }
 .main-items__div {
-  position: absolute;
   display: flex;
   align-items: center;
   margin-top: 15px;
