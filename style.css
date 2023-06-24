@@ -685,7 +685,8 @@ body {
 } */
 .main-block-bands {
   position: absolute;
-  width: 1440px;
+  /* width: 1440px; */
+  width: 100%; /* (Изменено) 24.06.2023 */
   height: 800px;
   justify-content: space-between;
   display: flex;
