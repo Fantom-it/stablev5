@@ -672,7 +672,8 @@ body {
   align-items: center;
   margin-top: 15px;
   margin-left: 698px;
-  margin: 0 auto;  /* (Изменено) 24.06.203 */
+  width: 44.53px; /* (Изменено) 24.06.203 */
+  margin: 0 auto; /* - */ 
   margin-top: 15px; /* - */
 }
 .main-items__div__min-div {
