@@ -617,7 +617,8 @@ body {
 }
 .show-right-content {
   margin-left: 1000px;
-  margin-left: -60px; /* 0000000000000000000000000000000000000000 */
+  margin-left: 0px; /* 0000000000000000000000000000000000000000 */
+  margin-right: 100px;
 }
 .right-content__big-text {
   font-size: 50px;
