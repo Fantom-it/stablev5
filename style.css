@@ -855,6 +855,9 @@ body {
 .bandsc {                   /* - */
   width: 600px;             /* - */
 }                           /* - */
+  .bandsc-tr {                   /* - */
+  width: 600px;             /* - */
+}                           /* - */
 }                           /* - */
 .bandsc-tr {
   width: 642px;
