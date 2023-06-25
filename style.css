@@ -604,7 +604,7 @@ body {
 }
 .right-content {
   display: none;
-  position: absolute;
+/*  position: absolute; */ /* 000000000000000000000000000000000000 */
   width: 316px;
   margin-left: 1000px;
   margin-left: 0;
@@ -617,6 +617,7 @@ body {
 }
 .show-right-content {
   margin-left: 1000px;
+  margin-left: 41px; /* 0000000000000000000000000000000000000000 */
 }
 .right-content__big-text {
   font-size: 50px;
